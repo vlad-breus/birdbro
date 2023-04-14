@@ -1,0 +1,21 @@
+# .gitignore
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+*.venv
+.venv/
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Model files
+server/app/models/*.pt
