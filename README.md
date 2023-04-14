@@ -16,14 +16,10 @@ The repository is organized into two main folders: `server` and `client`.
 1. Make sure you have Python 3.8 or higher and Docker installed.
 2. Navigate to the `server` folder.
 3. Install the required Python packages:
-
 `pip install -r requirements.txt`
 4. Build the Docker image:
-
 `docker build -t bird-call-recognition-server .`
-
 5. Run the Docker container:
-
 `docker run -p 8000:8000 bird-call-recognition-server`
 
 
@@ -36,11 +32,10 @@ The repository is organized into two main folders: `server` and `client`.
    ```bash
    chmod +x setup.sh
    ```
-4. Run the setup.sh script to install Python, required packages, and any additional dependencies:
-`./setup.sh`
+
+4. Run the setup.sh script to install Python, required packages, and any additional dependencies: `./setup.sh`
 5. Modify the config.py file to point to your server's IP address and port.
-6. Run the client application:
-`python3 main.py`
+6. Run the client application: `python3 main.py`
 
 ## Usage
 
